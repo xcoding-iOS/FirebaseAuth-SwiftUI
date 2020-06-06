@@ -13,6 +13,8 @@
 		D5FC0FB0248B49F900D41AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FC0FAF248B49F900D41AEF /* Assets.xcassets */; };
 		D5FC0FB3248B49F900D41AEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FC0FB2248B49F900D41AEF /* Preview Assets.xcassets */; };
 		D5FC0FB6248B49F900D41AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FC0FB4248B49F900D41AEF /* LaunchScreen.storyboard */; };
+		D5FC0FC1248B4A2200D41AEF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0FC0248B4A2200D41AEF /* LoginView.swift */; };
+		D5FC0FC5248B4E9300D41AEF /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0FC4248B4E9300D41AEF /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D5FC0FB2248B49F900D41AEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5FC0FB5248B49F900D41AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5FC0FB7248B49F900D41AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FC0FC0248B4A2200D41AEF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D5FC0FC4248B4E9300D41AEF /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D5FC0FA8248B49F800D41AEF /* FirebaseAuthSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D5FC0FBD248B4A0100D41AEF /* Views */,
 				D5FC0FA9248B49F800D41AEF /* AppDelegate.swift */,
 				D5FC0FAB248B49F800D41AEF /* SceneDelegate.swift */,
 				D5FC0FAD248B49F800D41AEF /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				D5FC0FB2248B49F900D41AEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5FC0FBD248B4A0100D41AEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5FC0FC0248B4A2200D41AEF /* LoginView.swift */,
+				D5FC0FC4248B4E9300D41AEF /* SignupView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			files = (
 				D5FC0FAA248B49F800D41AEF /* AppDelegate.swift in Sources */,
 				D5FC0FAC248B49F800D41AEF /* SceneDelegate.swift in Sources */,
+				D5FC0FC1248B4A2200D41AEF /* LoginView.swift in Sources */,
 				D5FC0FAE248B49F800D41AEF /* ContentView.swift in Sources */,
+				D5FC0FC5248B4E9300D41AEF /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
